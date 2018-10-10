@@ -1,4 +1,4 @@
-# CPF
+# Constant Probability Flux (CPF)
 
 This repository contains C++ simulation code for Brownian dynamics and collection of Jupyter Notebook to demonstrate coarse-graining physical models using Constant Probability Flux (CPF) method
 
