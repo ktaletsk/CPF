@@ -314,8 +314,8 @@ int main(int narg, char** arg)
     fpt_file.open(fpt_file_name, ios::out);
 
     for (int i=0; i<20; ++i){
-        Ran eran(25*jobid+i);
-        fpt(2, -0.4, 1.0, 0.0001, &eran, fpt_file);
+        Ran eran(20*jobid+i);
+        fpt(2, 0.0, 1.0, 0.0001, &eran, fpt_file);
     }
     fpt_file.close();
 
